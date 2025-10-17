@@ -90,7 +90,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
-            <h3 className="vertical-timeline-element-title">Bachelor of Technology in Computer Science</h3>
+            <h3 className="vertical-timeline-element-title">B.Tech in Computer Science & Engineering</h3>
             <h4 className="vertical-timeline-element-subtitle">
               National Institute of Technology (NIT), Andhra Pradesh
             </h4>

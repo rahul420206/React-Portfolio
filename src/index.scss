@@ -16,8 +16,26 @@ code {
 .main-container {
   position: relative;
   background-color: #0d1116;
+  transition: background-color 0.7s ease, color 0.7s ease;
 
+  p, a, h1, h2, h3, h4, h5, label, button {
+    transition: color 0.7s ease;
+  }
+
+  .navigation-bar, .navigation-bar svg {
+    transition: background-color 0.7s ease, color 0.7s ease;
+  }
+
+  .about-section {
+    transition: background-image 0.7s ease;
+  }
+
+  /* Optional: smooth shadows */
+  .chip, .vertical-timeline-element-content {
+    transition: box-shadow 0.7s ease, background-color 0.7s ease;
+  }
 }
+
 
 a {
   text-decoration: none;
@@ -95,17 +113,12 @@ p, a, h1, h2, h3, h4, h5, label, button {
 .light-mode {
   background-color: #f8f9fa;
 
-  .navigation-bar {
-    background-color: #f8f9fa;
-  }
-
   p, a, h1, h2, h3, h4, h5, label, button {
     color: #0d1116;
   }
 
-  a:hover {
-    color: #5000ca;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  .navigation-bar {
+    background-color: #f8f9fa;
   }
 
   .navigation-bar svg {

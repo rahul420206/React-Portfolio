@@ -10,7 +10,7 @@ function Footer() {
         <a href="https://github.com/rahul420206/" target="_blank" rel="noreferrer"><GitHubIcon/></a>
         <a href="https://www.linkedin.com/in/rahul-matta-a42585200/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
       </div>
-      <p>A portfolio designed & built by <a href="https://github.com/yujisatojr/react-portfolio-template" target="_blank" rel="noreferrer">Rahul Matta</a> with 💜</p>
+      <p>A portfolio designed & built by <a href="https://github.com/rahul42026/React-Portfolio" target="_blank" rel="noreferrer">Rahul Matta</a> with 💜</p>
     </footer>
   );
 }
